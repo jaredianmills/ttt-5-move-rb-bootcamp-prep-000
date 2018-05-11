@@ -10,3 +10,6 @@ input = gets.strip
 index = input_to_index(input)
 move(board, index, "X")
 display_board(board)
+puts "Now it's O's turn!"
+move(board, index, "O")
+display_board(board)
