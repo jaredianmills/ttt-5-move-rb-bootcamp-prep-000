@@ -11,5 +11,7 @@ def input_to_index(x)
 end
 
 def move
-  
+
 end
+
+puts board
